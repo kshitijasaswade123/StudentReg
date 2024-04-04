@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "11dadce4-a016-4b44-826c-bd646a757665",
+		"name": "StudentData",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32248950"
+	},
+	"item": [
+		{
+			"name": "https://studentreg-1.onrender.com/api/studentdata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://studentreg-1.onrender.com/api/studentdata",
+					"protocol": "https",
+					"host": [
+						"studentreg-1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"studentdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://studentreg-1.onrender.com/api/studentdata",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"samita\",\r\n    \"address\": \"pandharpur\",\r\n    \"email\": \"samita123@gmail.com\",\r\n    \"mobileNo\": \"9988550145\",\r\n    \"education\": \"bsc\",\r\n    \"dateOfBirth\": \"1995-03-25\",\r\n    \"gender\": \"female\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://studentreg-1.onrender.com/api/studentdata",
+					"protocol": "https",
+					"host": [
+						"studentreg-1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"studentdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://studentreg-1.onrender.com/api/studentdata/660ed5562cc7e916f0af8cb1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"samita\",\r\n    \"address\": \"pandharpur\",\r\n    \"email\": \"samita123@gmail.com\",\r\n    \"mobileNo\": \"9988550100\",\r\n    \"education\": \"bsc\",\r\n    \"dateOfBirth\": \"1995-03-25\",\r\n    \"gender\": \"female\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://studentreg-1.onrender.com/api/studentdata/660ed5562cc7e916f0af8cb1",
+					"protocol": "https",
+					"host": [
+						"studentreg-1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"studentdata",
+						"660ed5562cc7e916f0af8cb1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://studentreg-1.onrender.com/api/studentdata/660ed5d12cc7e916f0af8cb5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://studentreg-1.onrender.com/api/studentdata/660ed5d12cc7e916f0af8cb5",
+					"protocol": "https",
+					"host": [
+						"studentreg-1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"studentdata",
+						"660ed5d12cc7e916f0af8cb5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
